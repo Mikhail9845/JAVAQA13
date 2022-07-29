@@ -39,6 +39,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnStationAboveAverage() {
         Radio radio = new Radio();
@@ -48,6 +49,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void setMaxVolume() {
         Radio radio = new Radio();
@@ -57,6 +59,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void setMinVolume() {
         Radio radio = new Radio();
@@ -66,6 +69,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void setMiddleVolume() {
         Radio radio = new Radio();
@@ -75,6 +79,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void setVolumeBelowAverage() {
         Radio radio = new Radio();
@@ -84,6 +89,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void setVolumeAboveAverage() {
         Radio radio = new Radio();
@@ -93,6 +99,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void increaseMaxVolume() {
         Radio radio = new Radio();
@@ -103,6 +110,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void increaseMiddleVolume() {
         Radio radio = new Radio();
@@ -113,6 +121,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void increaseMinVolume() {
         Radio radio = new Radio();
@@ -123,6 +132,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void increaseVolumeAboveAverage() {
         Radio radio = new Radio();
@@ -133,6 +143,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void increaseVolumeBelowAverage() {
         Radio radio = new Radio();
@@ -143,6 +154,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void reducingMaxVolume() {
         Radio radio = new Radio();
@@ -153,6 +165,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void reducingMinVolume() {
         Radio radio = new Radio();
@@ -163,6 +176,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void reducingMiddleVolume() {
         Radio radio = new Radio();
@@ -173,6 +187,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void reducingVolumeAboveAverage() {
         Radio radio = new Radio();
@@ -183,6 +198,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void reducingVolumeBelowAverage() {
         Radio radio = new Radio();
@@ -193,6 +209,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnNextStationMiddle() {
         Radio radio = new Radio();
@@ -203,6 +220,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnNextStationMax() {
         Radio radio = new Radio();
@@ -213,6 +231,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnNextStationMin() {
         Radio radio = new Radio();
@@ -223,6 +242,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnNextStationAbove() {
         Radio radio = new Radio();
@@ -233,6 +253,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnNextStationBelow() {
         Radio radio = new Radio();
@@ -243,6 +264,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnPrevStationMax() {
         Radio radio = new Radio();
@@ -253,6 +275,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnPrevStationMin() {
         Radio radio = new Radio();
@@ -263,6 +286,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnPrevStationMiddle() {
         Radio radio = new Radio();
@@ -273,6 +297,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnPrevStationAbove() {
         Radio radio = new Radio();
@@ -283,6 +308,7 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void turnPrevStationBelow() {
         Radio radio = new Radio();
@@ -293,7 +319,6 @@ public class RadioTest {
         assertEquals(expected, actual);
 
     }
-
 
 
 }
